@@ -1,0 +1,28 @@
+a, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+
+.types{
+  text-align: center;
+}
+.test{
+  background-color: yellow;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.pink{
+  background-color: #dd8bc6;
+}
