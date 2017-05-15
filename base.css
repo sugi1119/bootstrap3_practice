@@ -84,7 +84,7 @@ nav.navbar.navbar-default{
 
 /*jumborotn section*/
 .bg_test{
-  background: url(/images/test_1.png);
+  background: url(/images/bgimage1.png);
 }
 
 .jumbotron_test{
@@ -96,7 +96,7 @@ nav.navbar.navbar-default{
 }
 
 .hero_img{
-  background: url(/images/test_1.png);
+  background: url(/images/bgimage1.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
