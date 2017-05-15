@@ -82,11 +82,27 @@ nav.navbar.navbar-default{
     }
   }
 
+/*jumborotn section*/
+.bg_test{
+  background: url(/images/test_1.png);
+}
 
+.jumbotron_test{
+  color: red;
+}
 
+.embed_img{
+  padding: 0;
+}
 
+.hero_img{
+  background: url(/images/test_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 40%;
 
-
+}
 
 /*navbar-brand visible-xs has -15px left margin*/
 
