@@ -20,63 +20,129 @@
     <link rel="stylesheet" href="base.css" text="style/css">
   </head>
   <body>
-   <div class="wrapper container">
-      <div class="row types">
-        <h2>Container</h2>
-        <p class="lead">This is with class="container".</p>
-        <div class="col-md-3 red">
-          <a href="#"><i class="fa fa-snowflake-o fa-5x" aria-hidden="true"></i>
-          <h3>Snow flake</h3></a>
-        </div>
-        <div class="col-md-3 blue">
-          <a href="#"><i class="fa fa-cloud fa-5x" aria-hidden="true"></i>
-            <h3>Clouds</h3></a>
-
-        </div>
-        <div class="col-md-3 yellow">
-          <a href="#"><i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
-            <h3>Sun</h3></a>
-
-        </div>
-        <div class="col-md-3 pink">
-          <a href="#"><i class="fa fa-umbrella fa-5x" aria-hidden="true"></i>
-          <h3>Rain</h3></a>
-        </div>
-        <p>
-           Check for class container.
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- top contact section -->
+      <div class="row test_row">
+        <p class="pull-left">this is left
         </p>
-        <!-- ./row -->
+        <p class="pull-right">
+          this is right
+        </p>
       </div>
-     <!-- ./wrapper container-fluid -->
-   </div>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="row test_row2">
 
-   <div class="wrapper container-fluid">
-      <div class="row types">
-        <h2>Container fluid</h2>
-        <p class="lead">This is with class="container-fluid"</p>
-        <div class="col-md-3 red">
-          <a href="#"><i class="fa fa-snowflake-o fa-5x" aria-hidden="true"></i>
-          <h3>Snow flake</h3></a>
-        </div>
-        <div class="col-md-3 blue">
-          <a href="#"><i class="fa fa-cloud fa-5x" aria-hidden="true"></i>
-            <h3>Clouds</h3></a>
+      <div class="navbar-header middle_row">
+        <!-- visible logo min sm device -->
+       <!--  <div class="row"> -->
+         <a class="navbar-brand hidden-xs company_name" href="#"><h1>BRAND LOGO</h1></a>
+       <!--  </div> -->
 
-        </div>
-        <div class="col-md-3 yellow">
-          <a href="#"><i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
-            <h3>Sun</h3></a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- visible logo for xs device -->
+        <a class="navbar-brand visible-xs" href="#">Brand</a>
 
-        </div>
-        <div class="col-md-3 pink">
-          <a href="#"><i class="fa fa-umbrella fa-5x" aria-hidden="true"></i>
-          <h3>Rain</h3></a>
-        </div>
-        <p>At this stage no horizontal scroll bar is appeared.</p>
-        <!-- ./row -->
+        <!-- ./navbar-header -->
       </div>
-     <!-- ./wrapper container-fluid -->
-   </div>
+      <!-- ./test_row2 -->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!-- nav navbar-nav has 1px border, so need to take off -->
+      <ul class="nav navbar-nav set-center">
+        <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+    <!-- <div class="row">
+      <ul class="hidden-xs">
+        <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div> -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+    <!-- test the service parts -->
+     <div class="wrapper container">
+        <div class="row types">
+          <h2>Container</h2>
+          <p class="lead">This is with class="container".</p>
+          <div class="col-md-3 red">
+            <a href="#"><i class="fa fa-snowflake-o fa-5x" aria-hidden="true"></i>
+            <h3>Snow flake</h3></a>
+          </div>
+          <div class="col-md-3 blue">
+            <a href="#"><i class="fa fa-cloud fa-5x" aria-hidden="true"></i>
+              <h3>Clouds</h3></a>
+
+          </div>
+          <div class="col-md-3 yellow">
+            <a href="#"><i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
+              <h3>Sun</h3></a>
+
+          </div>
+          <div class="col-md-3 pink">
+            <a href="#"><i class="fa fa-umbrella fa-5x" aria-hidden="true"></i>
+            <h3>Rain</h3></a>
+          </div>
+          <p>
+             Check for class container.
+          </p>
+          <!-- ./row -->
+        </div>
+       <!-- ./wrapper container-fluid -->
+     </div>
+
+     <div class="wrapper container-fluid">
+        <div class="row types">
+          <h2>Container fluid</h2>
+          <p class="lead">This is with class="container-fluid"</p>
+          <div class="col-md-3 red">
+            <a href="#"><i class="fa fa-snowflake-o fa-5x" aria-hidden="true"></i>
+            <h3>Snow flake</h3></a>
+          </div>
+          <div class="col-md-3 blue">
+            <a href="#"><i class="fa fa-cloud fa-5x" aria-hidden="true"></i>
+              <h3>Clouds</h3></a>
+
+          </div>
+          <div class="col-md-3 yellow">
+            <a href="#"><i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
+              <h3>Sun</h3></a>
+
+          </div>
+          <div class="col-md-3 pink">
+            <a href="#"><i class="fa fa-umbrella fa-5x" aria-hidden="true"></i>
+            <h3>Rain</h3></a>
+          </div>
+          <p>At this stage no horizontal scroll bar is appeared.</p>
+          <!-- ./row -->
+        </div>
+       <!-- ./wrapper container-fluid -->
+     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

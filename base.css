@@ -1,8 +1,94 @@
-a, a:hover, a:active, a:visited{
-  text-decoration: none;
-  color: white;
+body{
+  padding-top: 110px;
 }
 
+/*nav section*/
+.test_row{
+  background-color: red;
+  padding:5px 15px;
+}
+
+.test_row>p{
+  margin-bottom: 0;
+}
+
+.test_row2{
+  background-color: white;
+}
+
+.middle_row{
+  height: 50px;
+  float: none;
+}
+
+
+.company_name{
+  float: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.company_name>h1{
+  font-size: 34px;
+  font-weight: 900;
+  margin: 0;
+  display:inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 50px;
+
+}
+
+ .navbar-default .navbar-nav>li>a {
+    float: none;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    }
+#bs-example-navbar-collapse-1.navbar-collapse.collapse.in{
+  background-color: white;
+}
+
+nav.navbar.navbar-default{
+  border: none;
+  border-radius: 0;
+  background-color: yellow;
+  height: auto;
+}
+
+
+/*a, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color: white;
+}*/
+
+@media(min-width: 768px){
+  .navbar-nav{
+        height: 30px;
+        float: none; }
+    .set-center{
+    float: none;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    }
+    .navbar-nav>li>a{
+      /*(width - line-height(1.1)/2)*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    }
+  }
+
+
+
+
+
+
+
+/*navbar-brand visible-xs has -15px left margin*/
 
 .types{
   text-align: center;
