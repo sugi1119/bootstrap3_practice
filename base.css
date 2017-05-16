@@ -2,6 +2,10 @@ body{
   padding-top: 110px;
 }
 
+h2, p.lead{
+  text-align: center;
+}
+
 /*nav section*/
 .test_row{
   background-color: red;
@@ -127,4 +131,24 @@ nav.navbar.navbar-default{
 
 .pink{
   background-color: #dd8bc6;
+}
+
+
+/*table list*/
+.check_list1>ul>li{
+  list-style-type: none !important;
+  font-size: 28px;
+  line-height: 1.5;
+  padding: 0.5em 0;
+  margin-left: 0.5em;
+}
+
+.check_list1>ul>li:before {
+  font-family: FontAwesome;
+  font-size: 28px;
+  border: 1px solid red;
+  content: "\f00c";
+  position: absolute;
+  left: 0.5em;
+  color: blue;
 }
