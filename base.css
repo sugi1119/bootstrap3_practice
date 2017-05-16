@@ -146,9 +146,14 @@ nav.navbar.navbar-default{
 .check_list1>ul>li:before {
   font-family: FontAwesome;
   font-size: 28px;
-  border: 1px solid red;
   content: "\f00c";
   position: absolute;
   left: 0.5em;
   color: blue;
+}
+
+#map{
+  width: 100%;
+  height: 300px;
+  background-color: grey;
 }
