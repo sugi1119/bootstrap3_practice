@@ -157,3 +157,15 @@ nav.navbar.navbar-default{
   height: 300px;
   background-color: grey;
 }
+
+footer{
+  height: 70px;
+  margin-top: 2em;
+  text-align: center;
+  color: white;
+  background-color: blue;
+}
+
+footer.footer p{
+  padding-top: 2em;
+}
