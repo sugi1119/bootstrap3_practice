@@ -154,6 +154,35 @@ nav.navbar.navbar-default{
   vertical-align: middle;
 }
 
+.check:before{
+  font-family: FontAwesome;
+  font-size: 3em;
+  content: "\f046";
+  position: relative;
+  padding-top: 0.5em;
+  /*left: 0.5em;*/
+  color: blue;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 400;
+}
+
+.check{
+  text-align: center;
+}
+
+
+dl.dl-horizontal dd h3{
+    display: flex;
+    padding: 5px;
+    height: 35px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    /*font-weight: 350;*/
+}
+
+
+
 #map{
   width: 100%;
   height: 300px;
