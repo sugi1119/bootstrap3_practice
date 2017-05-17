@@ -135,23 +135,28 @@ nav.navbar.navbar-default{
 
 
 /*table list*/
+.check_list1 ul{
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 1em;
+}
 .check_list1>ul>li{
   list-style-type: none !important;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.5;
-  padding: 0.5em 0;
+  padding: 0.5em;
+  position: relative;
   /*margin: auto;*/
 }
 
 .check_list1>ul>li:before {
   font-family: FontAwesome;
-  font-size: 40px;
+  font-size: 30px;
   content: "\f046";
-  position: relative;
-  padding-top: 0.5em;
-  /*left: 0.5em;*/
+  position: absolute;
+  top: 1.5;
+  left: -1em;
   color: blue;
-  vertical-align: middle;
 }
 
 .check:before{
@@ -181,7 +186,9 @@ dl.dl-horizontal dd h3{
     /*font-weight: 350;*/
 }
 
-
+dl.dl-horizontal.check2{
+  font-size:16px;
+}
 
 #map{
   width: 100%;
