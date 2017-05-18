@@ -6,6 +6,11 @@ h2, p.lead{
   text-align: center;
 }
 
+h1.p-header{
+  text-align: center;
+  color: white;
+}
+
 /*nav section*/
 .test_row{
   background-color: red;
