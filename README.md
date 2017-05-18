@@ -1,2 +1,4 @@
 # bootstrap3_practice
-Only Practice purpose repositry. 
+
+For example: Difference between: container and container-fluid
+
